@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bible-app/static/css/main.e37dc31a.css",
+    "main.js": "/bible-app/static/js/main.9fd7f95b.js",
+    "static/media/logo.png": "/bible-app/static/media/logo.90916778668a39f34e33.png",
+    "index.html": "/bible-app/index.html",
+    "main.e37dc31a.css.map": "/bible-app/static/css/main.e37dc31a.css.map",
+    "main.9fd7f95b.js.map": "/bible-app/static/js/main.9fd7f95b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e37dc31a.css",
+    "static/js/main.9fd7f95b.js"
+  ]
+}
