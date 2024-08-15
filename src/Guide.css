@@ -1,0 +1,26 @@
+.table {
+    border: 1px solid #c1ddd8;
+}
+
+td, th {
+    border: 1px solid #c1ddd8;
+    padding: 10px;
+    width: fit-content;
+}
+#bottom {
+    padding: 10px;
+}
+
+.button {
+    padding: 10px;
+    background: none;
+    border-radius: 7px;
+    margin: 20px;
+    border: 2px solid #477047;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #477047;
+    color: #c1ddd8;
+}

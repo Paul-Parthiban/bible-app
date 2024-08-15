@@ -1,38 +1,158 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap");
+
+body {
   text-align: center;
+  font-family: sans-serif;
+  background: #c1ddd8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttons {
+  text-align: right;
+  background: #9ed4c5;
+  padding-top: none;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.NavButton {
+  background: none;
+  border: none;
   color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  font-size: 30px;
+  position: relative;
+  left: 800px;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons img {
+  width: 250px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome {
+  padding: 10px;
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: #477047;
+  border: 3px solid #477047;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
+}
+.outerContent {
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.content {
+  margin-top: 10px;
+  background: #a9d4c7;
+  width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  color: #477047;
+}
+
+input {
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 1px;
+    padding-left: 7px;
+    border: none;
+    background: #c1ddd8;
+    color: #477047;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    background: #c1ddd8;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #477047;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.full {
+    text-align: center;
+}
+
+.fullChapter {
+    width: 700px;
+    text-align: left;
+    font-size: 20px;
+    background: #c1ddd8;
+    padding: 20px;
+    border-radius: 10px;
+    color: #477047;
+}
+
+.fullChapter p {
+    padding: 7px;
+}
+
+.verses {
+    background: #c1ddd8;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center; 
+}
+
+.simpleControls {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+}
+
+.simpleControls button {
+  font-size: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+  background: #c1ddd8;
+  padding: 10px;
+  border: 2px solid #c1ddd8;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.simpleControls button:hover {
+  border:2px solid #b9dad3;
+  background: #b9dad3;
+}
+
+.btn:hover {
+  border:2px solid #b9dad3;
+  background: #b9dad3;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
